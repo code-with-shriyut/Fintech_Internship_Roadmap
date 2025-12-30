@@ -1,0 +1,10 @@
+my_expenses = []
+food_expense = int(input("Enter the expenditure amount on FOOD: ₹ "))
+travel_expense = int(input("Enter the expenditure amount on TRAVEL: ₹ "))
+recharge_expense = int(input("Enter the expenditure amount on MOBILE RECHARGE: ₹ "))
+my_expenses.append(food_expense)
+my_expenses.append(travel_expense)
+my_expenses.append(recharge_expense)
+print(f"Total Amount Spent: ₹ ", sum(my_expenses))
+print(f"Maximum Spend: ₹ ", max(my_expenses))
+print("List of Expenses: ", my_expenses)
