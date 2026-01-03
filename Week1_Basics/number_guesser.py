@@ -1,5 +1,4 @@
-import random
-# Random library helps us to pickup random numbers.
+import random # Random library helps us to pickup random numbers.
 secret_number = random.randint(1,100) # Here the machine picks up the number.
 print("I have chosen the number😗!!")
 attempts_left = 5 # Here we are setting total number of attempts left to make the game more interesting!!
